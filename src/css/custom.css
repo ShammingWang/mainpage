@@ -28,3 +28,45 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.color-primary-lightest {
+  color: var(--ifm-color-primary-lightest);
+}
+.color-primary-lighter {
+  color: var(--ifm-color-primary-lighter);
+}
+.color-primary-light {
+  color: var(--ifm-color-primary-light);
+}
+.color-primary {
+  color: var(--ifm-color-primary);
+}
+.color-primary-dark {
+  color: var(--ifm-color-primary-dark);
+}
+.color-primary-darker {
+  color: var(--ifm-color-primary-darker);
+}
+.color-primary-darkest {
+  color: var(--ifm-color-primary-darkest);
+}
+
+.full-page {
+  height: calc(100vh - 60px);
+  width: 100vw;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
