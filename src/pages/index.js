@@ -41,7 +41,7 @@ export default function Index() {
                 </a>
                 <Link
                   className="button button--link button--lg color-primary-lightest"
-                  to="/portfolio"
+                  to="/"
                 >
                   作品
                 </Link>
