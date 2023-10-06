@@ -24,10 +24,11 @@ export default function Index() {
                 <span className={clsx("margin-left--sm", styles.role)}>
                   <DistortionString
                     contents={[
-                      "人生赢家",
-                      "设计师",
-                      "工程师",
                       "开源开发者",
+                      "设计师",
+                      "独立开发者",
+                      "工程师",
+                      "算法爱好者",
                     ]}
                   />
                 </span>
