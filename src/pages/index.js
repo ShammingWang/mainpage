@@ -60,13 +60,12 @@ export default function Index() {
       <div className={`container padding-bottom--lg ${styles.badges}`}>
         <h2 className="margin-top--lg">技能</h2>
         <div>
-
+          <img alt="Java" src="/img/badge/java-svgrepo-com.svg" />
+          <img alt="C++" src="/img/badge/c-logo-svgrepo-com.svg" />
           <img alt="Python" src="/img/badge/PYTHON.svg" />
           <img alt="HTML5" src="/img/badge/HTML5.svg" />
           <img alt="CSS3" src="/img/badge/CSS3.svg" />
           <img alt="JavaScript" src="/img/badge/JAVASCRIPT.svg" />
-
-          
           <img alt="LaTeX" src="/img/badge/LATEX.svg" />
         </div>
 
