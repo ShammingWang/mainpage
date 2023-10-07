@@ -64,6 +64,7 @@ export default function Index() {
           <img alt="C++" src="/img/badge/C++.svg" />
           <img alt="JAVA" src="/img/badge/JAVA.svg" />
           <img alt="Python" src="/img/badge/PYTHON.svg" />
+          <img alt="Spring" src="/img/badge/Spring.svg" />
           <img alt="HTML5" src="/img/badge/HTML5.svg" />
           <img alt="CSS3" src="/img/badge/CSS3.svg" />
           <img alt="JavaScript" src="/img/badge/JAVASCRIPT.svg" />
