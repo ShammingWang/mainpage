@@ -60,12 +60,13 @@ export default function Index() {
       <div className={`container padding-bottom--lg ${styles.badges}`}>
         <h2 className="margin-top--lg">技能</h2>
         <div>
+
+          <img alt="Python" src="/img/badge/PYTHON.svg" />
           <img alt="HTML5" src="/img/badge/HTML5.svg" />
           <img alt="CSS3" src="/img/badge/CSS3.svg" />
           <img alt="JavaScript" src="/img/badge/JAVASCRIPT.svg" />
-          <img alt="Vue.js" src="/img/badge/VUE.svg" />
-          <img alt="Node.js" src="/img/badge/NODE.svg" />
-          <img alt="Swift" src="/img/badge/SWIFT.svg" />
+
+          
           <img alt="LaTeX" src="/img/badge/LATEX.svg" />
         </div>
 
@@ -78,7 +79,7 @@ export default function Index() {
           <img alt="Quasar" src="/img/badge/QUASAR.svg" />
           <img alt="TailwindCSS" src="/img/badge/TAILWIND CSS.svg" />
           <img alt="Overleaf" src="/img/badge/OVERLEAF.svg" />
-          <img alt="Xcode" src="/img/badge/XCODE.svg" />
+          {/* <img alt="Xcode" src="/img/badge/XCODE.svg" /> */}
           <img alt="Socket.io" src="/img/badge/SOCKET.IO.svg" />
           <img alt="Axios" src="/img/badge/AXIOS.svg" />
           <img alt="Font Awesome" src="/img/badge/FONT AWESOME.svg" />
@@ -91,7 +92,9 @@ export default function Index() {
         <div>
           <img alt="PostCSS" src="/img/badge/POSTCSS.svg" />
           <img alt="UnoCSS" src="/img/badge/UNOCSS.svg" />
-          <img alt="Python" src="/img/badge/PYTHON.svg" />
+          <img alt="Vue.js" src="/img/badge/VUE.svg" />
+          <img alt="Node.js" src="/img/badge/NODE.svg" />
+          {/* <img alt="Swift" src="/img/badge/SWIFT.svg" /> */}
         </div>
 
         <h2 className="margin-top--lg">贡献</h2>
