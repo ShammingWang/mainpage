@@ -65,6 +65,8 @@ export default function Index() {
           <img alt="JAVA" src="/img/badge/JAVA.svg" />
           <img alt="Python" src="/img/badge/PYTHON.svg" />
           <img alt="Spring" src="/img/badge/Spring.svg" />
+          <img alt="fastAPI" src="/img/badge/fastapi.svg" />
+          <img alt="Django" src="/img/badge/django.svg" />
           <img alt="mysql" src="/img/badge/mysql.svg" />
           <img alt="Mybatis" src="/img/badge/Mybatis.svg" />
           <img alt="HTML5" src="/img/badge/HTML5.svg" />
@@ -76,9 +78,13 @@ export default function Index() {
         <h2 className="margin-top--lg">工具</h2>
         <div>
           <img alt="VS Code" src="/img/badge/VS CODE.svg" />
-          <img alt="Vercel" src="/img/badge/VERCEL.svg" />
+          <img alt="IDEA" src="/img/badge/idea.svg" />
+          <img alt="Pycharm" src="/img/badge/pycharm.svg" />
           <img alt="Git" src="/img/badge/GIT.svg" />
           <img alt="Docker" src="/img/badge/DOCKER.svg" />
+          <img alt="Postman" src="/img/badge/POSTMAN.svg" />
+          <img alt="Vercel" src="/img/badge/VERCEL.svg" />
+
           <img alt="Quasar" src="/img/badge/QUASAR.svg" />
           <img alt="TailwindCSS" src="/img/badge/TAILWIND CSS.svg" />
           <img alt="Overleaf" src="/img/badge/OVERLEAF.svg" />
@@ -87,7 +93,7 @@ export default function Index() {
           <img alt="Axios" src="/img/badge/AXIOS.svg" />
           <img alt="Font Awesome" src="/img/badge/FONT AWESOME.svg" />
           <img alt="Sketch" src="/img/badge/SKETCH.svg" />
-          <img alt="Postman" src="/img/badge/POSTMAN.svg" />
+
           <img alt="Sass" src="/img/badge/SASS.svg" />
         </div>
 
