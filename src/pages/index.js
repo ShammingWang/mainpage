@@ -64,6 +64,8 @@ export default function Index() {
           <img alt="C++" src="/img/badge/C++.svg" />
           <img alt="JAVA" src="/img/badge/JAVA.svg" />
           <img alt="Python" src="/img/badge/PYTHON.svg" />
+          <img alt="Maven" src="/img/badge/maven.svg" />
+          <img alt="Anaconda" src="/img/badge/anaconda.svg" />
           <img alt="Spring" src="/img/badge/Spring.svg" />
           <img alt="fastAPI" src="/img/badge/fastapi.svg" />
           <img alt="Django" src="/img/badge/django.svg" />
