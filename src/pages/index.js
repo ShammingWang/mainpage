@@ -88,7 +88,6 @@ export default function Index() {
           <img alt="Vercel" src="/img/badge/VERCEL.svg" />
 
           <img alt="Quasar" src="/img/badge/QUASAR.svg" />
-          <img alt="TailwindCSS" src="/img/badge/TAILWIND CSS.svg" />
           <img alt="Overleaf" src="/img/badge/OVERLEAF.svg" />
           {/* <img alt="Xcode" src="/img/badge/XCODE.svg" /> */}
           <img alt="Socket.io" src="/img/badge/SOCKET.IO.svg" />
@@ -105,6 +104,7 @@ export default function Index() {
           <img alt="UnoCSS" src="/img/badge/UNOCSS.svg" />
           <img alt="Vue.js" src="/img/badge/VUE.svg" />
           <img alt="Node.js" src="/img/badge/NODE.svg" />
+          <img alt="TailwindCSS" src="/img/badge/TAILWIND CSS.svg" />
           {/* <img alt="Swift" src="/img/badge/SWIFT.svg" /> */}
         </div>
 
