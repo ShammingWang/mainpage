@@ -12,11 +12,11 @@
 
 目前，阿里云账单系统仅支持主账号级别的费用统计，若需实现子账号（RAM 用户）级别的分账，必须引入额外的信息。通过观察发现，对于需创建实例后才能使用的云产品，账单中通常包含实例 ID。借助这一点，我们可以利用阿里云的操作审计（ActionTrail）系统，查找每个实例的创建记录，从而获取具体的操作者（RAM 子账号）。通过将账单中的实例 ID 与审计日志中的操作记录进行关联，即可将每笔费用追溯到对应的用户，实现账单项的个体归属，从而完成子账号级别的费用分摊。
 
-![image.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/J9LnW6jGj3KkalvD/img/f2c8e3ad-6ba0-4e79-a1f6-38a1e22aa909.png)
+![image.png](./imgs/bill-system.png)
 
 阿里云的账单系统
 
-![image.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/J9LnW6jGj3KkalvD/img/29e39380-db65-4a58-87ad-e259d5fe70e8.png)
+![image.png](./imgs/actiontrail.png)
 
 操作审计查询创建实例的操作者
 
@@ -36,7 +36,7 @@
 
 目前，操作审计的事件数据已实时投递至 SLS 的 Logstore 中。我们可以在 DataWorks 中配置一个以 LogHub 为数据源的同步任务，将日志数据同步至 MaxCompute 中的目标表 actiontrail。该方式实现了从日志服务到数据仓库的自动化对接，便于后续在 MaxCompute 中进行统一的查询分析与关联处理。
 
-![image.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/J9LnW6jGj3KkalvD/img/c66f2645-32e1-4b2f-a945-5cfa290211d6.png)
+![image.png](./imgs/di-config.png)
 
 从Loghub到MaxCompute的实时增量同步任务配置
 
