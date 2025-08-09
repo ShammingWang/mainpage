@@ -90,11 +90,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '阿里云',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '产品费用分账统计项目-项目报告',
+                to: '/docs/aliyun-bill/aliyun-bill-report',
               },
             ],
           },
