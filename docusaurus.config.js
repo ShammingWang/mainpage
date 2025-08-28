@@ -92,10 +92,10 @@ const config = {
           {
             title: '阿里云',
             items: [
-              {
-                label: '产品费用分账统计项目-项目报告',
-                to: '/docs/aliyun-bill/aliyun-bill-report',
-              },
+              // {
+              //   label: '产品费用分账统计项目',
+              //   to: '/docs/aliyun-bill/aliyun-bill-report',
+              // },
             ],
           },
           {
